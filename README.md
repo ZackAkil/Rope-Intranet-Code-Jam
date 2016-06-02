@@ -17,7 +17,7 @@ On the above picture, the intersection points are the black circles, while the w
 How many intersection points do you see?
 
 ##Solution theory
-The script interactively checks for intersections between each rope and a dynamic list of ropes which initially contains only the first rope, then after a rope is checked for intersections with each rope in the dynamic list of ropes, its added to the dynamic list. Thus each rope is checked for intersections with each other rope only once.
+The script iteratively checks for intersections between each rope and a dynamic list of ropes which initially contains only the first rope, then after a rope is checked for intersections with each rope in the dynamic list of ropes, its added to the dynamic list. Thus each rope is checked for intersections with each other rope only once.
 
 ##Usage
 To use the solution: run the python script from a terminal passing it the name of the input file followed by the desired name of the output file.   
